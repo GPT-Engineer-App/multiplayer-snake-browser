@@ -46,7 +46,7 @@ const Index = () => {
     return () => {
       document.removeEventListener("keydown", handleKeyDown);
     };
-  }, []);
+  }, [direction]);
 
   useEffect(() => {
     const moveSnake = () => {
